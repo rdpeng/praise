@@ -1,0 +1,10 @@
+Package: praiseme
+Title: Send Some Praise
+Version: 0.0.0.9000
+Authors@R: person("Roger", "Peng", email = "roger.peng@monash.edu", role = c("aut", "cre"))
+Description: Sends messages of praise.
+Depends: R (>= 3.4.2)
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1
