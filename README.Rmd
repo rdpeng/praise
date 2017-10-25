@@ -14,7 +14,7 @@ knitr::opts_chunk$set(
 
 # praiseme
 
-The goal of praiseme is to send praise to people
+The goal of praiseme is to send praise to people.
 
 ## Installation
 
@@ -27,10 +27,12 @@ devtools::install_github("rdpeng/praise")
 
 ## Example
 
-This is a basic example which shows you how to solve a common problem:
+Here is an example of using praise.
 
 ```{r example}
 ## basic example code
 library(praiseme)
 praise()
+# or another person
+praise(name = "Nick")
 ```
